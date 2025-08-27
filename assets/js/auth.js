@@ -5,7 +5,7 @@ const CURRENT_KEY = 'ec_current_email';
 function getUsers() {
 	return JSON.parse(localStorage.getItem(USERS_KEY) || '[]');
 }
-function saveUsers(arr) {
+function saveUsers(arr) { 
 	localStorage.setItem(USERS_KEY, JSON.stringify(arr));
 }
 
