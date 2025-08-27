@@ -1,0 +1,722 @@
+[
+	{
+		"id": 1,
+		"title": "Wireless Earbuds Pro",
+		"brand": "SonicOne",
+		"sku": "SON-1001",
+		"price": 79.99,
+		"category": "Electronics",
+		"rating": 4.5,
+		"stock": 120,
+		"images": ["assets/img/p1.jpg"],
+		"description": "Noise‑isolating earbuds with 24h charging case.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "Aluminum/Plastic",
+			"Origin": "Imported"
+		},
+		"tags": ["wireless", "audio", "bluetooth"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "4K Action Camera",
+		"brand": "VistaCam",
+		"sku": "VIS-1002",
+		"price": 129.0,
+		"category": "Electronics",
+		"rating": 4.2,
+		"stock": 60,
+		"images": ["assets/img/p2.jpg"],
+		"description": "Waterproof 4K camera with stabilization.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "Aluminum/Plastic",
+			"Origin": "Imported"
+		},
+		"tags": ["camera", "outdoor"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Mechanical Keyboard",
+		"brand": "KeyForge",
+		"sku": "KEY-1003",
+		"price": 89.0,
+		"category": "Electronics",
+		"rating": 4.6,
+		"stock": 80,
+		"images": ["assets/img/p3.jpg"],
+		"description": "Hot‑swappable switches and RGB backlight.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "Aluminum/Plastic",
+			"Origin": "Imported"
+		},
+		"tags": ["keyboard", "gaming"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 5,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Men’s Classic Hoodie",
+		"brand": "UrbanWeave",
+		"sku": "URB-1004",
+		"price": 36.5,
+		"category": "Apparel",
+		"rating": 4.3,
+		"stock": 200,
+		"images": ["assets/img/p4.jpg"],
+		"description": "Mid‑weight fleece hoodie for daily wear.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "Cotton/Blend",
+			"Origin": "Imported"
+		},
+		"tags": ["hoodie", "cotton"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Women’s Running Leggings",
+		"brand": "Stride",
+		"sku": "STR-1005",
+		"price": 29.9,
+		"category": "Apparel",
+		"rating": 4.4,
+		"stock": 150,
+		"images": ["assets/img/p5.jpg"],
+		"description": "Breathable 4‑way stretch fabric.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "Cotton/Blend",
+			"Origin": "Imported"
+		},
+		"tags": ["running", "gym"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Linen Throw Pillow",
+		"brand": "CasaLoom",
+		"sku": "CAS-1006",
+		"price": 18.75,
+		"category": "Home",
+		"rating": 4.1,
+		"stock": 300,
+		"images": ["assets/img/p6.jpg"],
+		"description": "Soft decorative pillow 45x45 cm.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["decor", "pillow"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "Smart LED Bulb (2‑pack)",
+		"brand": "Luma",
+		"sku": "LUM-1007",
+		"price": 22.99,
+		"category": "Home",
+		"rating": 4.2,
+		"stock": 500,
+		"images": ["assets/img/p7.jpg"],
+		"description": "Color‑changing bulbs, app + voice control.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["smart", "lighting"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 8,
+		"title": "Aroma Diffuser 300ml",
+		"brand": "ZenMist",
+		"sku": "ZEN-1008",
+		"price": 24.5,
+		"category": "Home",
+		"rating": 4.0,
+		"stock": 220,
+		"images": ["assets/img/p8.jpg"],
+		"description": "Ultrasonic diffuser with timer settings.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["aroma", "wellness"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 9,
+		"title": "Vitamin C Serum 30ml",
+		"brand": "GlowLab",
+		"sku": "GLO-1009",
+		"price": 15.99,
+		"category": "Beauty",
+		"rating": 4.3,
+		"stock": 130,
+		"images": ["assets/img/p9.jpg"],
+		"description": "Brightening serum with hyaluronic acid.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["skincare", "vitamin-c"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 10,
+		"title": "Matte Liquid Lipstick",
+		"brand": "Velour",
+		"sku": "VEL-1010",
+		"price": 11.5,
+		"category": "Beauty",
+		"rating": 4.1,
+		"stock": 180,
+		"images": ["assets/img/p10.jpg"],
+		"description": "Long‑wear, richly pigmented formula.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["makeup", "lip"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 11,
+		"title": "Arabica Coffee Beans 1kg",
+		"brand": "BluePeak",
+		"sku": "BLU-1011",
+		"price": 19.99,
+		"category": "Grocery",
+		"rating": 4.6,
+		"stock": 90,
+		"images": ["assets/img/p11.webp"],
+		"description": "Medium roast, notes of chocolate and citrus.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["coffee", "beans"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 5,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 12,
+		"title": "Organic Green Tea 50 bags",
+		"brand": "Leaf & Co",
+		"sku": "LEA-1012",
+		"price": 8.75,
+		"category": "Grocery",
+		"rating": 4.2,
+		"stock": 140,
+		"images": ["assets/img/p12.webp"],
+		"description": "Refreshing aroma, smooth finish.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["tea", "organic"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 13,
+		"title": "High‑Protein Granola 500g",
+		"brand": "FuelUp",
+		"sku": "FUE-1013",
+		"price": 7.95,
+		"category": "Grocery",
+		"rating": 4.4,
+		"stock": 110,
+		"images": ["assets/img/p13.jpg"],
+		"description": "Crunchy oats with nuts and seeds.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["granola", "breakfast"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 14,
+		"title": "Stainless Water Bottle 1L",
+		"brand": "HydraMax",
+		"sku": "HYD-1014",
+		"price": 16.9,
+		"category": "Sports",
+		"rating": 4.7,
+		"stock": 220,
+		"images": ["assets/img/p14.jpg"],
+		"description": "Keeps drinks cold 24h / hot 12h.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["bottle", "outdoor"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 5,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 15,
+		"title": "Yoga Mat 6mm",
+		"brand": "ZenFlex",
+		"sku": "ZEN-1015",
+		"price": 21.0,
+		"category": "Sports",
+		"rating": 4.5,
+		"stock": 160,
+		"images": ["assets/img/p15.jpg"],
+		"description": "Non‑slip TPE mat with carry strap.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["yoga", "fitness"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 16,
+		"title": "Adjustable Dumbbell 10kg",
+		"brand": "IronCore",
+		"sku": "IRO-1016",
+		"price": 59.0,
+		"category": "Sports",
+		"rating": 4.2,
+		"stock": 70,
+		"images": ["assets/img/p16.jpg"],
+		"description": "Compact dumbbell with plates.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["strength", "homegym"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 17,
+		"title": "Laptop Stand Aluminum",
+		"brand": "Brackit",
+		"sku": "BRA-1017",
+		"price": 27.5,
+		"category": "Electronics",
+		"rating": 4.4,
+		"stock": 260,
+		"images": ["assets/img/p17.jpg"],
+		"description": "Ergonomic riser, fits 10‑16\" laptops.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "Aluminum/Plastic",
+			"Origin": "Imported"
+		},
+		"tags": ["office", "stand"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 18,
+		"title": "USB‑C Hub 7‑in‑1",
+		"brand": "Portify",
+		"sku": "POR-1018",
+		"price": 32.0,
+		"category": "Electronics",
+		"rating": 4.3,
+		"stock": 190,
+		"images": ["assets/img/p18.jpg"],
+		"description": "HDMI 4K, 3x USB, SD/TF, PD 100W.",
+		"specs": {
+			"Warranty": "12 months",
+			"Material": "Aluminum/Plastic",
+			"Origin": "Imported"
+		},
+		"tags": ["accessory", "usb-c"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 19,
+		"title": "Men’s Running Shoes",
+		"brand": "AeroStep",
+		"sku": "AER-1019",
+		"price": 54.0,
+		"category": "Apparel",
+		"rating": 4.2,
+		"stock": 95,
+		"images": ["assets/img/p19.jpg"],
+		"description": "Lightweight cushioning for daily miles.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "Cotton/Blend",
+			"Origin": "Imported"
+		},
+		"tags": ["shoes", "running"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 20,
+		"title": "Women’s Oversized T‑Shirt",
+		"brand": "UrbanWeave",
+		"sku": "URB-1020",
+		"price": 14.99,
+		"category": "Apparel",
+		"rating": 4.1,
+		"stock": 180,
+		"images": ["assets/img/p20.webp"],
+		"description": "Relaxed cut, 100% cotton.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "Cotton/Blend",
+			"Origin": "Imported"
+		},
+		"tags": ["tshirt", "casual"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 21,
+		"title": "Ceramic Non‑stick Pan 28cm",
+		"brand": "ChefMate",
+		"sku": "CHE-1021",
+		"price": 34.9,
+		"category": "Home",
+		"rating": 4.3,
+		"stock": 85,
+		"images": ["assets/img/p21.webp"],
+		"description": "Even heating, PFOA‑free.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["kitchen", "cookware"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 22,
+		"title": "Scented Candle Vanilla 200g",
+		"brand": "GlowHome",
+		"sku": "GLO-1022",
+		"price": 12.5,
+		"category": "Home",
+		"rating": 4.0,
+		"stock": 210,
+		"images": ["assets/img/p22.jpg"],
+		"description": "Up to 40h burn time.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["candle", "vanilla"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 23,
+		"title": "Foaming Face Cleanser 150ml",
+		"brand": "PureSkin",
+		"sku": "PUR-1023",
+		"price": 9.8,
+		"category": "Beauty",
+		"rating": 4.2,
+		"stock": 160,
+		"images": ["assets/img/p23.jpg"],
+		"description": "Gentle daily cleanser.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["cleanser", "skincare"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	},
+	{
+		"id": 24,
+		"title": "Protein Bar Box (12)",
+		"brand": "MuscleBite",
+		"sku": "MUS-1024",
+		"price": 17.99,
+		"category": "Grocery",
+		"rating": 4.1,
+		"stock": 130,
+		"images": ["assets/img/p24.jpg"],
+		"description": "Chocolate peanut flavor, 20g protein.",
+		"specs": {
+			"Warranty": "—",
+			"Material": "—",
+			"Origin": "Imported"
+		},
+		"tags": ["protein", "snack"],
+		"reviews": [
+			{
+				"name": "Alex",
+				"stars": 4,
+				"comment": "Solid quality for the price."
+			},
+			{
+				"name": "Sam",
+				"stars": 4,
+				"comment": "Arrived fast, works as expected."
+			}
+		]
+	}
+]
