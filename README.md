@@ -74,7 +74,11 @@ and a clean UI for practicing front-end development.
 
 ## 📸 Screenshots
 
-![Home page](Capture.PNG)(Capture1.PNG)
+![Home page](assets/readme-images/home.PNG)
+![Home page](assets/readme-images/home1.PNG)
+![cart page](assets/readme-images/cart.PNG)
+![product page](assets/readme-images/product.PNG)
+
 
 ------------------------------------------------------------------------
 
