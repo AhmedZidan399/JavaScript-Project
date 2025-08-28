@@ -235,8 +235,8 @@ function renderCartPage() {
 	// checkout action
 	document.getElementById('checkoutBtn').addEventListener('click', () => {
 		saveCart([]); // clear cart
-		renderCartPage(); // re-render cart to show empty state
 		alert("Your items shipped well!");
+		renderCartPage(); // re-render cart to show empty state
 	});
 }
 
