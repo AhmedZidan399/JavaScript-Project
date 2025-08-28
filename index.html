@@ -240,9 +240,10 @@
 									id="nameInput"
 									required
 									minlength="3"
+									autocomplete="off"
 								/>
 								<div class="invalid-feedback">
-									Enter at least 3 characters.
+									Enter at least 3 characters and string.
 								</div>
 							</div>
 							<div class="mb-2">
@@ -252,6 +253,7 @@
 									class="form-control"
 									id="emailInput"
 									required
+									autocomplete="off"
 								/>
 								<div class="invalid-feedback">
 									Enter a valid email.
@@ -264,12 +266,13 @@
 									class="form-control"
 									id="passInput"
 									required
+									autocomplete="off"
 									minlength="8"
-									pattern="^(?=.*[A-Z])(?=.*\d).{8,}$"
+									pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,20}$"
 								/>
 								<div class="invalid-feedback">
 									Min 8 chars, include a number & capital
-									letter.
+									letter & one of [@$!%*#?&].
 								</div>
 							</div>
 							<div
@@ -285,6 +288,7 @@
 									class="form-control"
 									id="confirmInput"
 									required
+									autocomplete="off"
 								/>
 								<div class="invalid-feedback">
 									Passwords must match.

@@ -84,4 +84,4 @@ and a clean UI for practicing front-end development.
 
 ## 👨‍💻 Author
 
-Developed with ❤️ by [Ahmed Ibrahim Zidan ](https://github.com/your-username)
+Developed with ❤️ by [Ahmed Ibrahim Zidan ](https://github.com/AhmedZidan399)

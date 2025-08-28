@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		// client-side validation
 		if (mode === 'signup') {
-			name.classList.toggle('is-invalid', !(name.value && name.value.trim().length >= 3));
+			name.classList.toggle('is-invalid', !(name.value && name.value.trim().length >= 3 && /^[A-Za-z_][A-Za-z0-9_ ]+$/.test(name.value)));
 		}
 		email.classList.toggle('is-invalid', !validEmail(email.value));
 		pass.classList.toggle('is-invalid', !validPassword(pass.value));
