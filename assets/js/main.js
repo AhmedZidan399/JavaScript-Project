@@ -224,14 +224,22 @@ function renderCartPage() {
     </div>`;
 	}).join('') + `<div class="d-flex justify-content-between align-items-center mt-3">
     <h5>Subtotal: $${subtotal.toFixed(2)}</h5>
-    <button class="btn btn-success">Checkout</button>
+    <button class="btn btn-success" id="checkoutBtn">Checkout</button>
   </div>`;
 
 	// attach actions
 	wrap.querySelectorAll('[data-inc]').forEach(b => b.onclick = () => qtyChange(+b.dataset.inc, +1));
 	wrap.querySelectorAll('[data-dec]').forEach(b => b.onclick = () => qtyChange(+b.dataset.dec, -1));
 	wrap.querySelectorAll('[data-del]').forEach(b => b.onclick = () => removeItem(+b.dataset.del));
+
+	// checkout action
+	document.getElementById('checkoutBtn').addEventListener('click', () => {
+		saveCart([]); // clear cart
+		renderCartPage(); // re-render cart to show empty state
+		alert("Your items shipped well!");
+	});
 }
+
 function qtyChange(id, delta) {
 	const cart = getCart();
 	const it = cart.find(i => i.id === id);
