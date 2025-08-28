@@ -125,117 +125,71 @@ document.addEventListener('DOMContentLoaded', () => {
 			setCurrentEmail(u.email);
 			bootstrap.Modal.getInstance(document.getElementById('authModal')).hide();
 		}
+		renderAuthState();
 		// Update cart count after login switch (separate carts per user)
 		updateCartCount();
 	});
 });
 
 
-// ===========================
+function logout() {
+	const email = currentEmail();
+	if (email) {
+		let logs = JSON.parse(localStorage.getItem('ec_logout_history') || '[]');
+		logs.push({ email, when: Date.now() });
+		localStorage.setItem('ec_logout_history', JSON.stringify(logs));
+	}
+	eraseCookie(CURRENT_KEY);
+	location.reload();
+	renderAuthState();
+}
 
-// // Sign up
-// function handleSignup(e) {
-// 	e.preventDefault();
-// 	const name = document.getElementById('suName').value.trim();
-// 	const email = document.getElementById('suEmail').value.trim().toLowerCase();
-// 	const pw = document.getElementById('suPassword').value;
+function renderAuthState() {
+	const authArea = document.getElementById('authArea');
+	if (!authArea) return;
+	const email = currentEmail();
 
-// 	const nameHelp = document.getElementById('suNameHelp');
-// 	const emailHelp = document.getElementById('suEmailHelp');
-// 	const pwHelp = document.getElementById('suPasswordHelp');
+	if (email) {
+		const users = getUsers();
+		const u = users.find(x => x.email === email);
 
-// 	nameHelp.textContent = validName(name) ? '' : 'Enter 2-31 letters/spaces, starting with a letter.';
-// 	emailHelp.textContent = validEmail(email) ? '' : 'Invalid email format.';
-// 	pwHelp.textContent = validPassword(pw) ? '' : 'At least 6 characters.';
+		authArea.innerHTML = `
+			<span class="text-white fw-bold">👤 ${u ? u.name : email}</span>
+			<button class="btn btn-danger btn-sm fw-bold" id="logoutBtn">Logout</button>
+			<a class="btn btn-outline-light position-relative" href="cart.html">
+			🛒
+			<span
+				id="cartCount"
+				class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+				>0</span
+			>
+		</a>
+		`;
+		document.getElementById('logoutBtn').addEventListener('click', logout);
+	} else {
+		authArea.innerHTML = `
+			<button class="btn btn-outline-light btn-sm fw-bold" id="btnSignIn">
+				Sign In
+			</button>
+			<button class="btn btn-warning btn-sm fw-bold" id="btnSignUp">
+				Sign Up
+			</button>
+			<a class="btn btn-outline-light position-relative" href="cart.html">
+			🛒
+			<span
+				id="cartCount"
+				class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+				>0</span
+			>
+		</a>
+		`;
+		document.getElementById('btnSignIn')?.addEventListener('click',
+			() => openAuth('signin')
+		);
+		document.getElementById('btnSignUp')?.addEventListener('click',
+			() => openAuth('signup')
+		);
+	}
+}
 
-// 	if (!validName(name) || !validEmail(email) || !validPassword(pw)) return;
-
-// 	let users = getUsers();
-// 	const exists = users.find(u => u.email === email);
-// 	if (exists) {
-// 		emailHelp.textContent = 'Email already registered. Try sign in.';
-// 		return;
-// 	}
-// 	users.push({ name, email, pw, createdAt: Date.now() });
-// 	saveUsers(users);
-// 	setCurrentEmail(email); // store in cookie
-
-// 	// Also keep a small cookie "history" list to meet requirement
-// 	let hist = JSON.parse(localStorage.getItem('ec_signup_history') || '[]');
-// 	hist.push({ email, when: Date.now() });
-// 	localStorage.setItem('ec_signup_history', JSON.stringify(hist));
-
-// 	bootstrap.Modal.getInstance(document.getElementById('authModal')).hide();
-// 	renderAuthState();
-// }
-
-// // Sign in
-// function handleSignin(e) {
-// 	e.preventDefault();
-// 	const email = document.getElementById('siEmail').value.trim().toLowerCase();
-// 	const pw = document.getElementById('siPassword').value;
-
-// 	const emailHelp = document.getElementById('siEmailHelp');
-// 	const pwHelp = document.getElementById('siPasswordHelp');
-
-// 	emailHelp.textContent = validEmail(email) ? '' : 'Invalid email format.';
-// 	pwHelp.textContent = validPassword(pw) ? '' : 'At least 6 characters.';
-// 	if (!validEmail(email) || !validPassword(pw)) return;
-
-// 	const users = getUsers();
-// 	const user = users.find(u => u.email === email && u.pw === pw);
-// 	if (!user) {
-// 		pwHelp.textContent = 'Email or password is incorrect.';
-// 		return;
-// 	}
-// 	setCurrentEmail(email);
-// 	bootstrap.Modal.getInstance(document.getElementById('authModal')).hide();
-// 	renderAuthState();
-// }
-
-// // Logout
-// function logout() {
-// 	const email = currentEmail();
-// 	if (email) {
-// 		// keep a cookie/local record of last logout emails
-// 		let logs = JSON.parse(localStorage.getItem('ec_logout_history') || '[]');
-// 		logs.push({ email, when: Date.now() });
-// 		localStorage.setItem('ec_logout_history', JSON.stringify(logs));
-// 	}
-// 	eraseCookie(CURRENT_KEY);
-// 	renderAuthState();
-// }
-
-// // Render current auth state in navbar
-// function renderAuthState() {
-// 	const authArea = document.getElementById('authArea');
-// 	if (!authArea) return;
-// 	const email = currentEmail();
-// 	if (email) {
-// 		authArea.innerHTML = `
-//       <span class="me-2 small text-muted d-none d-md-inline">Hi, \${email}</span>
-//       <button class="btn btn-outline-secondary btn-sm" id="logoutBtn">Logout</button>`;
-// 		const lb = document.getElementById('logoutBtn');
-// 		if (lb) lb.addEventListener('click', logout);
-// 	} else {
-// 		authArea.innerHTML = `
-//       <button class="btn btn-outline-primary btn-sm me-2" data-bs-toggle="modal" data-bs-target="#authModal" data-view="signin">Sign In</button>
-//       <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#authModal" data-view="signup">Sign Up</button>`
-// 	}
-// }
-
-// // Switch modal tab based on opener
-// document.addEventListener('show.bs.modal', event => {
-// 	if (event.target.id === 'authModal') {
-// 		const trigger = event.relatedTarget;
-// 		const desired = trigger?.getAttribute('data-view') || 'signin';
-// 		const tabTriggerEl = document.querySelector(`#authModal button[data-bs-target="#\${desired}"]`);
-// 		if (tabTriggerEl) { new bootstrap.Tab(tabTriggerEl).show(); }
-// 	}
-// });
-
-// window.addEventListener('DOMContentLoaded', () => {
-// 	renderAuthState();
-// 	document.getElementById('signupForm')?.addEventListener('submit', handleSignup);
-// 	document.getElementById('signinForm')?.addEventListener('submit', handleSignin);
-// });
+window.addEventListener('DOMContentLoaded', renderAuthState);

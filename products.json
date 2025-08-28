@@ -8,7 +8,7 @@
 		"category": "Electronics",
 		"rating": 4.5,
 		"stock": 120,
-		"images": ["assets/img/p1.jpg"],
+		"images": ["assets/images/p1.jpg"],
 		"description": "Noise‑isolating earbuds with 24h charging case.",
 		"specs": {
 			"Warranty": "12 months",
@@ -38,7 +38,7 @@
 		"category": "Electronics",
 		"rating": 4.2,
 		"stock": 60,
-		"images": ["assets/img/p2.jpg"],
+		"images": ["assets/images/p2.jpg"],
 		"description": "Waterproof 4K camera with stabilization.",
 		"specs": {
 			"Warranty": "12 months",
@@ -68,7 +68,7 @@
 		"category": "Electronics",
 		"rating": 4.6,
 		"stock": 80,
-		"images": ["assets/img/p3.jpg"],
+		"images": ["assets/images/p3.jpg"],
 		"description": "Hot‑swappable switches and RGB backlight.",
 		"specs": {
 			"Warranty": "12 months",
@@ -98,7 +98,7 @@
 		"category": "Apparel",
 		"rating": 4.3,
 		"stock": 200,
-		"images": ["assets/img/p4.jpg"],
+		"images": ["assets/images/p4.jpg"],
 		"description": "Mid‑weight fleece hoodie for daily wear.",
 		"specs": {
 			"Warranty": "—",
@@ -128,7 +128,7 @@
 		"category": "Apparel",
 		"rating": 4.4,
 		"stock": 150,
-		"images": ["assets/img/p5.jpg"],
+		"images": ["assets/images/p5.jpg"],
 		"description": "Breathable 4‑way stretch fabric.",
 		"specs": {
 			"Warranty": "—",
@@ -158,7 +158,7 @@
 		"category": "Home",
 		"rating": 4.1,
 		"stock": 300,
-		"images": ["assets/img/p6.jpg"],
+		"images": ["assets/images/p6.jpg"],
 		"description": "Soft decorative pillow 45x45 cm.",
 		"specs": {
 			"Warranty": "—",
@@ -188,7 +188,7 @@
 		"category": "Home",
 		"rating": 4.2,
 		"stock": 500,
-		"images": ["assets/img/p7.jpg"],
+		"images": ["assets/images/p7.jpg"],
 		"description": "Color‑changing bulbs, app + voice control.",
 		"specs": {
 			"Warranty": "—",
@@ -218,7 +218,7 @@
 		"category": "Home",
 		"rating": 4.0,
 		"stock": 220,
-		"images": ["assets/img/p8.jpg"],
+		"images": ["assets/images/p8.jpg"],
 		"description": "Ultrasonic diffuser with timer settings.",
 		"specs": {
 			"Warranty": "—",
@@ -248,7 +248,7 @@
 		"category": "Beauty",
 		"rating": 4.3,
 		"stock": 130,
-		"images": ["assets/img/p9.jpg"],
+		"images": ["assets/images/p9.jpg"],
 		"description": "Brightening serum with hyaluronic acid.",
 		"specs": {
 			"Warranty": "—",
@@ -278,7 +278,7 @@
 		"category": "Beauty",
 		"rating": 4.1,
 		"stock": 180,
-		"images": ["assets/img/p10.jpg"],
+		"images": ["assets/images/p10.jpg"],
 		"description": "Long‑wear, richly pigmented formula.",
 		"specs": {
 			"Warranty": "—",
@@ -308,7 +308,7 @@
 		"category": "Grocery",
 		"rating": 4.6,
 		"stock": 90,
-		"images": ["assets/img/p11.webp"],
+		"images": ["assets/images/p11.webp"],
 		"description": "Medium roast, notes of chocolate and citrus.",
 		"specs": {
 			"Warranty": "—",
@@ -338,7 +338,7 @@
 		"category": "Grocery",
 		"rating": 4.2,
 		"stock": 140,
-		"images": ["assets/img/p12.webp"],
+		"images": ["assets/images/p12.webp"],
 		"description": "Refreshing aroma, smooth finish.",
 		"specs": {
 			"Warranty": "—",
@@ -368,7 +368,7 @@
 		"category": "Grocery",
 		"rating": 4.4,
 		"stock": 110,
-		"images": ["assets/img/p13.jpg"],
+		"images": ["assets/images/p13.jpg"],
 		"description": "Crunchy oats with nuts and seeds.",
 		"specs": {
 			"Warranty": "—",
@@ -398,7 +398,7 @@
 		"category": "Sports",
 		"rating": 4.7,
 		"stock": 220,
-		"images": ["assets/img/p14.jpg"],
+		"images": ["assets/images/p14.jpg"],
 		"description": "Keeps drinks cold 24h / hot 12h.",
 		"specs": {
 			"Warranty": "12 months",
@@ -428,7 +428,7 @@
 		"category": "Sports",
 		"rating": 4.5,
 		"stock": 160,
-		"images": ["assets/img/p15.jpg"],
+		"images": ["assets/images/p15.jpg"],
 		"description": "Non‑slip TPE mat with carry strap.",
 		"specs": {
 			"Warranty": "12 months",
@@ -458,7 +458,7 @@
 		"category": "Sports",
 		"rating": 4.2,
 		"stock": 70,
-		"images": ["assets/img/p16.jpg"],
+		"images": ["assets/images/p16.jpg"],
 		"description": "Compact dumbbell with plates.",
 		"specs": {
 			"Warranty": "12 months",
@@ -488,7 +488,7 @@
 		"category": "Electronics",
 		"rating": 4.4,
 		"stock": 260,
-		"images": ["assets/img/p17.jpg"],
+		"images": ["assets/images/p17.jpg"],
 		"description": "Ergonomic riser, fits 10‑16\" laptops.",
 		"specs": {
 			"Warranty": "12 months",
@@ -518,7 +518,7 @@
 		"category": "Electronics",
 		"rating": 4.3,
 		"stock": 190,
-		"images": ["assets/img/p18.jpg"],
+		"images": ["assets/images/p18.jpg"],
 		"description": "HDMI 4K, 3x USB, SD/TF, PD 100W.",
 		"specs": {
 			"Warranty": "12 months",
@@ -548,7 +548,7 @@
 		"category": "Apparel",
 		"rating": 4.2,
 		"stock": 95,
-		"images": ["assets/img/p19.jpg"],
+		"images": ["assets/images/p19.jpg"],
 		"description": "Lightweight cushioning for daily miles.",
 		"specs": {
 			"Warranty": "—",
@@ -578,7 +578,7 @@
 		"category": "Apparel",
 		"rating": 4.1,
 		"stock": 180,
-		"images": ["assets/img/p20.webp"],
+		"images": ["assets/images/p20.webp"],
 		"description": "Relaxed cut, 100% cotton.",
 		"specs": {
 			"Warranty": "—",
@@ -608,7 +608,7 @@
 		"category": "Home",
 		"rating": 4.3,
 		"stock": 85,
-		"images": ["assets/img/p21.webp"],
+		"images": ["assets/images/p21.webp"],
 		"description": "Even heating, PFOA‑free.",
 		"specs": {
 			"Warranty": "—",
@@ -638,7 +638,7 @@
 		"category": "Home",
 		"rating": 4.0,
 		"stock": 210,
-		"images": ["assets/img/p22.jpg"],
+		"images": ["assets/images/p22.jpg"],
 		"description": "Up to 40h burn time.",
 		"specs": {
 			"Warranty": "—",
@@ -668,7 +668,7 @@
 		"category": "Beauty",
 		"rating": 4.2,
 		"stock": 160,
-		"images": ["assets/img/p23.jpg"],
+		"images": ["assets/images/p23.jpg"],
 		"description": "Gentle daily cleanser.",
 		"specs": {
 			"Warranty": "—",
@@ -698,7 +698,7 @@
 		"category": "Grocery",
 		"rating": 4.1,
 		"stock": 130,
-		"images": ["assets/img/p24.jpg"],
+		"images": ["assets/images/p24.jpg"],
 		"description": "Chocolate peanut flavor, 20g protein.",
 		"specs": {
 			"Warranty": "—",
